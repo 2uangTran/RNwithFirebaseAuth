@@ -2,7 +2,7 @@ import { View,Image, Text, StyleSheet, TouchableOpacity } from 'react-native'
 import React from 'react'
 import { useNavigation } from '@react-navigation/native'
 
-const Main = () => {
+const Welcome = () => {
   const navigation = useNavigation();
   return (
     <View style ={MyStyle.ViewStyle}>
@@ -24,7 +24,7 @@ const Main = () => {
   )
 }
 
-export default Main
+export default Welcome
 
 var MyStyle = StyleSheet.create(
     {
