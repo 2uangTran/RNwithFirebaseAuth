@@ -43,6 +43,7 @@ const Login = () => {
           placeholder="Email..."
           placeholderTextColor="#9BA4B5"
           error={!!email.error}
+          errorText={email.error}
           onChangeText={value => setEmail(value)}
           value={email}
         />
