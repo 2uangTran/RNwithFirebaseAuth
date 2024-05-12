@@ -16,7 +16,6 @@ import {auth} from '../component/config/firebase';
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [user, setUser] = useState('');
   const handleSubmit = async () => {
     if (email && password) {
       try {
